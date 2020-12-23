@@ -1,0 +1,153 @@
+@import url('https://fonts.googleapis.com/css2?family=Sail&display=swap');
+html{
+  scroll-behavior: smooth;
+}
+body {
+    font-size: 15pt;
+    background: linear-gradient(50deg, rgba(10, 225, 0, 0.3), rgba(0, 0, 0, 0.5), rgba(220, 10, 0, 0.3)), url("top.jpg");
+    margin: 0;
+    padding: 0;
+    background-attachment: fixed;
+    background-size:cover;
+        font-family: 'Sail', cursive;
+
+}
+#prof{
+  height: 200px;
+  width: 200px;
+  border-radius: 50%;
+  box-shadow:2px 3px 7px black, inset 3px 4px 5px white;
+  transition:1.5s linear;
+  background:red;
+}
+legend{
+  background:url("pback.png");
+  border-radius:50%;
+  height: 200px;
+  width: 200px;
+  box-shadow:2px 3px 7px black, inset 6px 7px 5px rgba(225, 200, 225, 0.5), inset -6px -7px 5px rgba(225, 200, 225, 0.5);
+  
+  background-size:cover;
+  animation: change 25s linear infinite forwards;
+  transition: 1s linear;
+}
+@keyframes change{
+  0%{
+    background: url(prof.jpg);
+    background-size:cover;
+  }
+  25%{
+    background: url(prof2.jpg);
+    background-size:cover;
+  }
+  50%{
+    background: url(prof3.png);
+    background-size:cover;
+  }
+  75%{
+    background: url(prof4.jpg);
+    background-size:cover;
+  }
+  100%{
+    background: url(prof.jpg);
+    background-size:cover;
+  }
+ 
+}
+#top{
+  height: 90vh;
+  width: 100%;
+  
+}
+#main{
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  width: 70%;
+  border: 10px solid rgba(0, 0, 0, 0.5);
+  border-radius: 15px;
+  box-shadow: 4px 6px 5px #030303B5, inset 4px 6px 5px #030303B5;
+  padding: 0;
+  overflow: hidden;
+  
+}
+#top{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: linear-gradient(50deg, rgba(10, 225, 0, 0.3), rgba(0, 0, 0, 0.5), rgba(220, 10, 0, 0.3)), url("top.jpg");
+  background-attachment:fixed;
+  background-size:cover;
+  height: 100vh;
+  width: 100%;
+}
+#birth, #name{
+  color: white;
+  font-size: 55px;
+  font-family: 'Sail', cursive;
+  font-weight: 500;
+  text-shadow:1px 1px 1px grey, 2px 2px 1px grey, 3px 3px 1px grey;
+}
+.ws{
+  font-size: 25px;
+  color: white;
+    font-family: 'Sail', cursive;
+    text-shadow: 1px 2px 4px black;
+
+}
+#wish{
+  padding: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 3px;
+  border: 10px solid #CD169566;
+  border-radius:10px;
+  background: linear-gradient(50deg, #19309E80,#92199E80);
+  position: relative;
+  right: 100%;
+  transition: 0.5s linear;
+  margin: 0;
+}
+.himg{
+  color: white;
+  font-weight: 550;
+  border-bottom:5px solid #92199EC9;
+  text-align: center;
+  font-size: 50px;
+  background: linear-gradient(50deg, #92199E6E, #92199E80);
+  border-radius: 15px;
+}
+audio{
+  display: none;
+}
+.mouse{
+  height: 100%;
+  width: 100%;
+}
+.sign{
+  text-align: right;
+  float: right;
+}
+.teeth{
+  color: white;
+  font-size: 25px;
+  font-weight: 550;
+  padding: 10px;
+  background: linear-gradient(50deg, #19309E80,#92199E80);
+    border-radius: 15px;
+  border-bottom:5px solid #9D18BD4F;
+}
+.hbdimg{
+  height: 100%;
+  width: 100%;
+}
+.nm{
+  font-size: 30px;
+}
+.scroll{
+  height: 50px;
+  width: 30px;
+  margin: 0;
+  
+}

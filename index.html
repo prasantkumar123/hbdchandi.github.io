@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=Edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <title>Happy birthday Chandi</title>
+  
+  <!-- HTML -->
+  
+
+  <!-- Custom Styles -->
+ 
+ <link rel="stylesheet" href="style.css">
+ <script src="https://cdn.jsdelivr.net/npm/sweetalert2@9"></script>
+</head> 
+
+<body>
+  <!-- Project -->
+  <div class="container">
+    <div id="top">
+        <a href="#wish"> <img src="scroll.gif" alt="" class="scroll"></a>
+      <fieldset id="main">
+        <legend align="center">
+          <!--img src="prof.jpg" alt="" id="prof"/-->
+        </legend>
+        <h1 id="birth">Happy birthday</h1>
+        <h1 id="name">Chandi <br /> <span class="nm">(Priyadarsini)</span></h1>
+       
+      </fieldset>
+      <a href="#wish"> <img src="scroll.gif" alt="" class="scroll"></a>
+    </div>
+    
+    <div id="wish">
+      <p class="ws">
+        Your birthday says goodbye to the most memorable year (2020) in my life 😂 and welcome a new year. <br />
+        I hope you will enjoy your upcoming years. <br />
+        I don't know you for much time, but you made me feel like your own brother. 🤗<br />
+        If you hadn't join our institution, I would have never known you. This is just like connecting dots...🤔🙄 <br /><br />
+       <em> I don't know whether you will stay in contact with me or not in future, but always stay happy even if I am absent. </em>
+        <br /> <br />
+        <em>This is what a younger brother wishes ...</em> <br />
+        <span class="sign"> - Prasant <br /> Your Chhotu</span>
+       
+      </p>
+      
+    </div>
+    <div class="image">
+      <h2 class="himg">I have your perfect picture 🤭</h2>
+      <img src="rat.png" alt="" class="mouse">
+      <p class="teeth">This is the rat who had stolen your Chhotu's teeth 😑😐.... <br /><br />
+      Return my teeth along with pending 3 Chocolates 🍫 😋😁 <br />
+      For your birthday, add one more Chocolate in this list 😎. <br />
+      You have to give all my Chocolates, when we meet...😋 <br /><br />
+     <br /> But I don't know whether we will meet or not in future 🤔🥺... but I want my Chocolates...😑
+      </p>
+    </div>
+    <img src="pback.png" alt="" class="hbdimg">
+  </div>
+  
+  <audio id="music" controls>
+    <source src="audio.mp3" type="" media="" />
+  </audio>
+  
+  <script>
+    Swal.fire('Welcome \n\n Wish you the warmest & happiest birthday ever \n\n Listen the song for you 🤭 and read carefully 🧐 \n\n Level up your volume 🔊')
+    
+window.addEventListener("mouseover",play);
+window.addEventListener("click",play);
+function play() { document.getElementById("music").play();
+}
+
+window.addEventListener('scroll', function(){
+                
+            var wish = document.querySelector("#wish");
+             
+             
+      var value = window.scrollY;
+      
+      wish.style.right = 0;
+      if (value == 0){
+           wish.style.right = '100%';
+            } 
+            })
+
+</script>
+  <script src="main.js"></script>
+ 
+</body>
+</html>
